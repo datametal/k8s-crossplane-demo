@@ -1,0 +1,8 @@
+project: dot
+providers:
+  google_secretmanager:
+    env:
+      UP_ACCOUNT:
+        path: projects/datametal/secrets/upbound-account/versions/1
+      UP_TOKEN:
+        path: projects/datametal/secrets/upbound-token/versions/1
